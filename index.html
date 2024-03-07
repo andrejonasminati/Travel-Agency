@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parallax</title>
+        <meta charset="utf-8">
+
+        <style>
+            body, html{
+                height: 100%;
+                margin: 0%;
+                padding: 0px;
+                background:white;
+            }
+            .capa,.img1,.img2,.img3, .img4,.img5{
+                height: 100%;
+                width: 100%;
+                margin:auto;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                position: relative;
+            }
+            .capa{
+                background-image: url(imgs/img-capa.jpg);
+                background-repeat: no-repeat;
+                opacity: 80%;
+            }
+            .img1{
+                background-image:url(imgs/imagem1.jpg);
+                background-repeat: no-repeat;
+            }
+            .img2{
+                background-image: url(imgs/img-praia.jpg);
+                background-repeat: no-repeat;
+            }
+            .img3{
+                background-image: url(imgs/imagem9.jpg);
+                background-repeat: no-repeat;
+            }       
+            .img4{
+                background-image: url(imgs/img-montanha.jpg);
+                background-repeat: no-repeat;
+            }        
+            .img5{
+                background-image: url(imgs/img-cabana.jpg);
+                background-repeat: no-repeat;
+            }
+            .conteudo{
+                text-align: center;
+            }
+        
+            .titulo-box{
+                position:absolute;
+                width: 100%;
+                top:45%;
+                text-align: center;
+              
+            }
+            .titulo-box span{
+                background-color: black;
+                color:white;
+                font-size: 40px;
+                text-align: center;
+                padding: 10px;
+            }
+            .titulo-capa{
+                position:absolute;
+                width: 100%;
+                top:53%;
+                text-align: center;
+            }
+              
+            .capa span{
+                background-color: black;
+                color:white;
+                font-size: 40px;
+                text-align: center;
+                padding: 10px;
+            }
+            p{
+                padding: 20px;
+                font-size: 24px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+            }
+            .final{
+                background-color: black;
+                color: white;
+                padding: 20px;
+                height: 50px;
+                font-weight: bold;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="capa">
+            <div class="titulo-capa">
+            <span>Agência de Viajens</span>
+        </div>
+        </div>
+
+        <div class="conteudo">
+            <p>Preparamos um roteiro super especial para você aproveitar ao máximo suas férias</p>
+        </div>
+
+        <div class="img1">
+            <div class="titulo-box">
+                <span>Passeio de Balões</span>
+            </div>
+        </div>
+        <div class="conteudo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                 Aliquam lacinia augue dolor, non <br>porta odio molestie ac.
+                 Praesent a ipsum dignissim, viverra orci quis, consequat massa.<br>
+                 Nullam maximus sem mi, ut vehicula sem auctor vel.</p>
+        </div>
+
+        <div class="img2">
+            <div class="titulo-box">
+                <span>Lindas Praias</span>
+            </div>
+        </div>
+        <div class="conteudo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                 Aliquam lacinia augue dolor, non <br>porta odio molestie ac.
+                 Praesent a ipsum dignissim, viverra orci quis, consequat massa.<br>
+                 Nullam maximus sem mi, ut vehicula sem auctor vel.</p>
+        </div>
+        <div class="img3">
+            <div class="titulo-box">
+                <span>Centros Históricos</span>
+            </div>
+        </div>
+        <div class="conteudo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                 Aliquam lacinia augue dolor, non <br>porta odio molestie ac.
+                 Praesent a ipsum dignissim, viverra orci quis, consequat massa.<br>
+                 Nullam maximus sem mi, ut vehicula sem auctor vel.</p>
+        </div>
+        <div class="img4">
+            <div class="titulo-box">
+                <span>Trilhas nas Montanhas</span>
+            </div>
+
+        </div>
+        <div class="conteudo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                 Aliquam lacinia augue dolor, non <br>porta odio molestie ac.
+                 Praesent a ipsum dignissim, viverra orci quis, consequat massa.<br>
+                 Nullam maximus sem mi, ut vehicula sem auctor vel.</p>
+        </div>
+        <div class="img5">
+            <div class="titulo-box">
+                <span>Pousada na Floresta</span>
+            </div>
+        </div>
+        <div class="final">
+            @angenciadeviagens.com
+        </div>
+    </body>
+</html>
